@@ -1,0 +1,6 @@
+ ion    logN  err_logN  z           err_z      vhel       err_vhel b       err_b
+ SiIII  14.79   0.41    0.000088    0.000009     26.38      2.70   38.10    5.72
+ SiIII  13.39   0.07    0.000394    0.000026    118.12      7.79   60.00    0.00
+ SiIII  12.72   0.06    0.000985    0.000008    295.30      2.40   13.77    4.06
+# Bestfit Chi2 = 138.75, DOF = 191, reduced chi2 = 0.73
+# Recorded date: 2022/04/21. YZ.

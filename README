@@ -1,0 +1,9 @@
+data/zheng_dwarfcgm-survey_nocut-in-mstar-snr-b.csv
+    - originally DwarfsCGM_combined_literature_all_09-13-2022.csv
+    - include all new obs/archive search and literature values from B14, B18, LC14, J17, QB22, Z19, Z20
+    - Note that upper limits are in 1 sigma here for both EW and logN, although in analyses we use 3sig
+
+data/zheng_dwarfcgm-survey_cut-mstar9.5-snr8-br200m.csv
+    - originally DwarfsCGM_combined_literature_refined_09-13-2022.csv
+    - based on zheng_dwarfcgm-survey_nocut-in-mstar-snr-b.csv, and apply cut to select only logmstar<=9.5, snr>=8, and b<=R200m
+    - Note that upper limits are in 1 sigma here for both EW and logN, although in analyses we use 3sig
