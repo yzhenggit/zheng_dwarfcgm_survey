@@ -1,5 +1,5 @@
 Authors' notes: 
-This repo includes observational data and analysis codes for a comprehensive survey of the CGM of nearby dwarf galaxies by Zheng et al. (2023). If you use data or codes from this repo, please consider citing the paper: (add link later). 
+This repo includes observational data and analysis codes for a comprehensive survey of the CGM of nearby dwarf galaxies by Zheng et al. (2023). If you use data or codes from this repo, please consider citing the paper: (add link later) and relevant references (Bordoloi+2014, Liang & Chen 2014, Qu & Bregman 2022, Zheng et al. 2019, 2020) used in this paper. 
 
 A few key data files:
 data/zheng_dwarfcgm-survey_cut-mstar9.5-snr8-br200m.csv
@@ -8,6 +8,5 @@ data/zheng_dwarfcgm-survey_cut-mstar9.5-snr8-br200m.csv
 
 data/zheng_dwarfcgm-survey_nocut-in-mstar-snr-b.csv
 - include all new obs/archive search and literature values from B14, B18, LC14, J17, QB22, Z19, Z20, no cuts were applied
-- Note that upper limits are in 1 sigma here for both EW and logN, although in analyses we use 3sig
 
-Updated as of Jan 23, 2023
+Updated as of Jan 27, 2023
