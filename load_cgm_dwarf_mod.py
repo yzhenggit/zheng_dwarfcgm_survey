@@ -101,11 +101,11 @@ def plot_obsdata(ax, ion, use1sig=False, ecolor='k', color='k', fs=16,
         yy = 12.9
         gap = 0.4
         ax.fill_between([xx, xx+dx], yy, yy+dy, color=bin_colors[0], alpha=0.8)
-        ax.text(xx+dx*1.1, yy-dy/5, bin_labels[0], fontsize=fs-7)
+        ax.text(xx+dx*1.1, yy-dy/5, bin_labels[0], fontsize=fs-8)
         ax.fill_between([xx, xx+dx], yy-gap, yy-gap+dy, color=bin_colors[1], alpha=0.8)
-        ax.text(xx+dx*1.1, yy-gap-dy/5, bin_labels[1], fontsize=fs-7)
+        ax.text(xx+dx*1.1, yy-gap-dy/5, bin_labels[1], fontsize=fs-8)
         ax.fill_between([xx, xx+dx], yy-2*gap, yy-2*gap+dy, color=bin_colors[2], alpha=0.8)
-        ax.text(xx+dx*1.1, yy-2*gap-dy/5, bin_labels[2], fontsize=fs-7)
+        ax.text(xx+dx*1.1, yy-2*gap-dy/5, bin_labels[2], fontsize=fs-8)
     return ax, file_label
 
 def read_ion_measurements_logN(ion, use1sig=False):
